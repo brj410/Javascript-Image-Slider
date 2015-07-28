@@ -1,0 +1,56 @@
+
+
+h1 {
+	text-align: center;
+}
+.slider-container1{
+	margin:0 auto;
+	position:relative;
+	overflow:hidden;
+
+}
+.slider-container2{
+	margin:0 auto;
+	position:relative;
+	overflow:hidden;
+
+}
+.slide-holder{
+	float: right;
+	position:relat1ive;
+	width:50000px;
+
+	margin-left: 0px;
+	overflow: hidden;
+}
+.slide-holder div {
+	float: left;
+}
+.left {
+    opacity: 0;
+}
+.right{
+	opacity:0;
+}
+.left:hover{
+	opacity: 1;
+}
+.right:hover{
+	opacity: 1;
+}
+#captionbar{
+	background: #FFF;
+	margin: 0 auto;
+	opacity: 0.3;
+	position: absolute;
+	z-index: 2;
+	font-size: 36px;
+	text-align: center;
+}
+#captionbar:hover{
+	opacity: 0.5;
+}
+.indexbar{
+	position:absolute;
+	z-index: 1;
+}
